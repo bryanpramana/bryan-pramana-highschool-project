@@ -1,0 +1,111 @@
+<html>
+<style>
+#footer{clear:both;background: black; color:white}
+
+.body{background : url("earphone.jpg") center; color:black;}
+p{color:white;}
+li {
+    float: left;}
+
+a:link, a:visited {
+    display: block;
+    width: 325px;
+    font-weight: bold;
+    color:white;
+    background-color:black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:black;
+}
+ul {
+    font-family : "century gothic";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.style1 {
+	font-size: 36px;
+	color: #FFFFFF;
+}
+.style3 {font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; font-weight: bold; }
+</style>
+
+<head>
+<ul>
+  <li><a href=index.html>Home</a></li>
+  <li><a href=pollingform.html>Polling</a></li>
+  <li><a href=guestbookform.html>Guest Book</a></li>
+  <li><a href=about%20us.html>About Us</a></li>
+</ul>
+</head>
+
+<body class=body> 
+<p>&nbsp;</p>
+<form method=post action=guestbook.php>
+  <p align=center class="style1"> Give Us Your Comments. It will be very helpful.</p>
+		<table width="61%" height="69%" align=center>
+          <tr>
+            <td> <div align="center" class="style3">Name </div></td>
+            <td> : </td>
+            <td><input type=text name=name >            </td>
+          </tr>
+          <tr>
+            <td> <div align="center" class="style3">Age </div></td>
+            <td> : </td>
+            <td><input type=text name=age >            </td>
+          </tr>
+          <tr>
+            <td> <div align="center" class="style3">Email </div></td>
+            <td> : </td>
+            <td><input type=text name=email >            </td>
+          </tr>
+          <tr>
+            <td> <div align="center" class="style3">Comment </div></td>
+            <td> : </td>
+            <td><input type=text name=comment >            </td>
+          </tr>
+          <tr>
+            <td colspan=3>
+              
+              <div align="center">
+                <input name="submit" type= submit value=submit>
+                <input name="reset" type= reset value=cancel>
+              </div></td>
+          </tr>
+        </table>
+		<div align="center">
+<p><br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+	        <br>
+		    
+  <span class="style2">
+	        <footer>
+    <DIV id=footer align=center>
+	        Copyright &copy 2015 by Group 9
+            </footer>
+          </span> </p>
+  </div>
+	</form>
+</body>
+
+
+
+</html>
